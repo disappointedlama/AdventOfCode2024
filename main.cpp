@@ -1,4 +1,5 @@
 #include"christmas.hpp"
+#include"day1.hpp"
 
 void print_head() {
 	print_christmas_tree();
@@ -9,4 +10,5 @@ void print_head() {
 
 int main() {
 	print_head();
+	day1();
 }

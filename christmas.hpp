@@ -109,5 +109,5 @@ void print_framed(const std::string& s, const int padding=2, const int decoratio
 			print_colored('#', DARK_GREEN);
 		}
 	}
-	std::cout << RESET_COLOR;
+	std::cout <<'\n' << RESET_COLOR;
 }
