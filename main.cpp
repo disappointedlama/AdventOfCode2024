@@ -10,5 +10,6 @@ void print_head() {
 
 int main() {
 	print_head();
-	day1();
+	Day1 d1{};
+	d1.solve();
 }

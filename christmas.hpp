@@ -73,7 +73,7 @@ void print_christmas_tree() {
 		<< "                ####\n";
 	std::cout << RESET_COLOR;
 }
-void print_framed(const std::string& s, const int padding=2, const int decoration_percentage=40) {
+void print_framed(const std::string& s, const int padding=5, const int decoration_percentage=40) {
 	using namespace ansi_colors;
 	static constexpr const char* decorations{ "#*O@$%&" };
 	static constexpr size_t decoration_count{ 7 };

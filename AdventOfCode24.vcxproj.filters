@@ -26,5 +26,8 @@
     <ClInclude Include="christmas.hpp">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="solution.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
