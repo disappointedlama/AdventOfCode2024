@@ -1,6 +1,7 @@
 #include"christmas.hpp"
 #include"day1.hpp"
 #include"day2.hpp"
+#include"day3.hpp"
 
 void print_head() {
 	print_christmas_tree();
@@ -15,4 +16,6 @@ int main() {
 	d1.solve();
 	Day2 d2{};
 	d2.solve();
+	Day3 d3{};
+	d3.solve();
 }
