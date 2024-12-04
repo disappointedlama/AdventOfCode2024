@@ -30,4 +30,5 @@ public:
 		std::cout << '\n';
 		print_framed(s.str());
 	}
+	virtual ~Solution() {};
 };

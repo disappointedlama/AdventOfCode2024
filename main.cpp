@@ -2,6 +2,7 @@
 #include"day1.hpp"
 #include"day2.hpp"
 #include"day3.hpp"
+#include"day4.hpp"
 
 void print_head() {
 	print_christmas_tree();
@@ -12,10 +13,14 @@ void print_head() {
 
 int main() {
 	print_head();
-	Day1 d1{};
-	d1.solve();
-	Day2 d2{};
-	d2.solve();
-	Day3 d3{};
-	d3.solve();
+	std::vector<Solution*> solutions{ 
+		new Day1{}, 
+		new Day2{}, 
+		new Day3{}, 
+		new Day4{},
+	};
+	for (Solution* p : solutions) {
+		p->solve();
+		delete p;
+	}
 }

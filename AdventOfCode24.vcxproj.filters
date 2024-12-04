@@ -35,5 +35,8 @@
     <ClInclude Include="day3.hpp">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="day4.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
